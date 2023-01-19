@@ -231,7 +231,7 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
-    * {
+    body {
         padding: 0.4%;
     }
     .social {
@@ -259,6 +259,10 @@ footer {
     .blog {
         width: 100%;
         margin-bottom: 50px;
+    }
+    
+    .blog-text-heading {
+        font-size: 1.025rem;
     }
     
     .blog-text {
